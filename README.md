@@ -5,4 +5,5 @@ Desenvolvi como resolução final do modulo 2 do MiniCamp.
 
 ![Pagina Index](./imcPage.jpg)
 
-**Link da Pagina** : <https://wesleyallan.github.io/imcApp/>
+**Link (GitHubPages)** : <https://wesleyallan.github.io/imcApp/>
+**Link (Netlify)** : <https://imcdark.netlify.app>
