@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="wesleyallan" />
+    <meta name="description" content="Projeto Base" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>IMC</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="container-input">
+        <h1>IMC</h1>
+        <p>
+          <label for="input-weight">Peso (KG): </label><br />
+          <input id="input-weight" type="number" step="0.1" value="100" />
+        </p>
+        <p>
+          <label for="input-height">Altura (m): </label><br />
+          <input id="input-height" type="number" step="0.01" value="1.90" />
+        </p>
+        <p>
+          <button id="button-calculate-imc">Calcular IMC</button>
+        </p>
+      </div>
+      <div class="container-result">
+        <p id="paragraph-result">O IMC desses dados</p>
+        <p>
+          <strong id="imc-result"></strong>
+        </p>
+        <p id="imc-result-text"></p>
+      </div>
+    </div>
+    <script src="./assets/js/script.js" defer></script>
+  </body>
+</html>
