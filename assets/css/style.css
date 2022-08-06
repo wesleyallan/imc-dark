@@ -80,7 +80,7 @@ button:focus {
   color: #04d361;
 }
 
-@media (max-width: 470px) {
+@media (max-width: 470px) and (min-width: 1px) {
   .container {
     flex-direction: column;
     border: none;
