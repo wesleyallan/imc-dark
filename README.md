@@ -1,6 +1,12 @@
 <h1 align="center">Bem Vindo ao Imc Dark 👋</h1>
 <p align="center">➗🔢 Calculadora de IMC com exibição de condição em texto</p>
-<p>
+
+<div align="center">
+
+  ![Pagina Web App](./imcPage.jpg)
+</div>
+
+<p align="center">
   <img alt="Version" src="https://img.shields.io/badge/version-0.1-blue.svg?cacheSeconds=2592000" />
   <a href="#" target="_blank">
     <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
@@ -12,8 +18,6 @@
     <img alt="Twitter: Wesley_AllanS" src="https://img.shields.io/twitter/follow/Wesley_AllanS.svg?style=social" />
   </a>
 </p>
-
-![Pagina Web App](./imcPage.jpg)
 
 ### ✨ [Opção 1](https://imcdark.netlify.app)
 
