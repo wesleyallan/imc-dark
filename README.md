@@ -1,4 +1,5 @@
 <h1 align="center">Bem Vindo ao Imc Dark 👋</h1>
+<p align="center">➗🔢 Calculadora de IMC com exibição de condição em texto</p>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-0.1-blue.svg?cacheSeconds=2592000" />
   <a href="#" target="_blank">
@@ -11,8 +12,6 @@
     <img alt="Twitter: Wesley_AllanS" src="https://img.shields.io/twitter/follow/Wesley_AllanS.svg?style=social" />
   </a>
 </p>
-
-> Calculadora de IMC com exibição de condição
 
 ![Pagina Web App](./imcPage.jpg)
 
