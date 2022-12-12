@@ -18,7 +18,7 @@
 
 ### ✨ [Opção 1](https://imcdark.netlify.app)
 
-### ✨ [Opção 2](https://wesleyallan.io/imcApp)
+### ✨ [Opção 2](https://wesleyallan.github.io/imcApp/)
 
 ## Install
 
