@@ -12,7 +12,7 @@ body {
   align-items: center;
 }
 .container {
-  padding: 10px;
+  padding: 10px 10px 30px;
   width: 500px;
   min-width: 450px;
   background-color: #292a2b;
@@ -30,6 +30,17 @@ body {
 }
 .container-input h1 {
   font-size: 40px;
+}
+.container-input form {
+  display: inherit;
+  flex-direction: inherit;
+  align-items: inherit;
+}
+.container-input fieldset {
+  border: none;
+  display: inherit;
+  flex-direction: inherit;
+  align-items: inherit;
 }
 .container-result {
   display: flex;
@@ -65,6 +76,7 @@ button {
   color: white;
   padding: 10px;
   cursor: pointer;
+  display: none;
 }
 button:hover,
 button:focus {
