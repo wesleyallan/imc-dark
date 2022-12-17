@@ -1,6 +1,7 @@
 * {
   font-family: 'JetBrains Mono', monospace;
   box-sizing: border-box;
+  margin: 0;
 }
 body {
   height: 100vh;
