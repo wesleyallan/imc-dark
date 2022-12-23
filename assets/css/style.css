@@ -108,3 +108,14 @@ button:focus {
     background-color: #292a2b;
   }
 }
+
+
+/* Removendo "Spin" do input tipo number*/
+input[type='number']::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+input[type='number'] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
