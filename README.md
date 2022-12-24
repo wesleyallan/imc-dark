@@ -22,14 +22,14 @@
 
 ### ✨ [Opção 1](https://imcdark.netlify.app)
 
-### ✨ [Opção 2](https://wesleyallan.github.io/imcApp/)
+### ✨ [Opção 2](https://wesleyallan.github.io/imc-dark/)
 
 ## Instalar
 
 Projeto simples com HTML e CSS puro, ou seja, assim não havendo necessidade de instalações extras.
 
 ```sh
-git clone https://github.com/wesleyallan/imcApp
+git clone https://github.com/wesleyallan/imc-dark
 ```
 
 ## Executar
