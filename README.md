@@ -37,7 +37,7 @@ git clone https://github.com/wesleyallan/imc-dark
 Para a execução do projeto basta haver um browser instalado, e abrir o arquivo `index.html`, seja por linha de comando ou pelo atalho `Ctrl + O` com o browser aberto.
 
 ```sh
-cd imcApp
+cd imc-dark
 [browser] index.html
 ```
 
