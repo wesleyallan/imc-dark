@@ -22,7 +22,7 @@
           <h1>IMC</h1>
         </header>
         <form>
-          <fieldset>
+          <fieldset name="input-weight">
             <label for="input-weight">Peso (KG):</label>
             <input
               id="input-weight"
@@ -31,8 +31,7 @@
               value="100"
               tabindex="1"
             />
-          </fieldset>
-          <fieldset>
+          </fieldset name="input-height">
             <label for="input-height">Altura (m):</label>
             <input
               id="input-height"
@@ -42,7 +41,6 @@
               tabindex="2"
             />
           </fieldset>
-          <button id="button-calculate-imc">Calcular IMC</button>
         </form>
       </div>
       <section class="container-result">

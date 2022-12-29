@@ -1,33 +1,5 @@
-function start() {
-  var buttonCalculateImc = document.querySelector('#button-calculate-imc');
-  var inputWeight = document.querySelector('#input-weight');
-  var inputHeight = document.querySelector('#input-height');
-
-  inputWeight.addEventListener('input', handleButtonClick);
-  inputHeight.addEventListener('input', handleButtonClick);
-  buttonCalculateImc.addEventListener('click', handleButtonClick);
-
-  handleButtonClick();
-}
-
-function calculateImc(weight, height) {
-  return weight / (height * height);
-}
-
-function handleButtonClick() {
-  var inputWeight = document.querySelector('#input-weight');
-  var inputHeight = document.querySelector('#input-height');
-  var imcResult = document.querySelector('#imc-result');
-  var weight = Number(inputWeight.value);
-  var height = Number(inputHeight.value);
-  var imc = calculateImc(weight, height);
-  var formattedImc = imc.toFixed(2).replace('.', ',');
-  imcResult.textContent = formattedImc;
-  imcResultText(imc);
-}
-
 function imcResultText(imc) {
-  var imcResultText = document.querySelector('#imc-result-text');
+  const imcResultText = document.querySelector('#imc-result-text');
   imcResultText.innerHTML = '';
   imcResultText.classList.remove('danger', 'alert', 'nice');
   if (imc < 16) {
@@ -55,6 +27,32 @@ function imcResultText(imc) {
     imcResultText.classList.add('danger');
     imcResultText.textContent = 'Obesidade grau III';
   }
+}
+
+function calculateImc(weight, height) {
+  return weight / (height * height);
+}
+
+function handleButtonClick() {
+  const inputWeight = document.querySelector('#input-weight');
+  const inputHeight = document.querySelector('#input-height');
+  const imcResult = document.querySelector('#imc-result');
+  let weight = Number(inputWeight.value);
+  let height = Number(inputHeight.value);
+  let imc = calculateImc(weight, height);
+  let formattedImc = imc.toFixed(2).replace('.', ',');
+  imcResult.textContent = formattedImc;
+  imcResultText(imc);
+}
+
+function start() {
+  const inputWeight = document.querySelector('#input-weight');
+  const inputHeight = document.querySelector('#input-height');
+
+  inputWeight.addEventListener('input', handleButtonClick);
+  inputHeight.addEventListener('input', handleButtonClick);
+
+  handleButtonClick();
 }
 
 start();
