@@ -1,3 +1,12 @@
+function changeTabIndex(foco) {
+  const inputWeight = document.getElementById('input-weight');
+  if (foco) {
+    inputWeight.setAttribute('tabindex', '0');
+  } else {
+    inputWeight.setAttribute('tabindex', '1');
+  }
+}
+
 function imcResultText(imc) {
   const imcResultText = document.querySelector('#imc-result-text');
   imcResultText.innerHTML = '';
