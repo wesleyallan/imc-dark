@@ -1,4 +1,7 @@
-<h1 align="center">Bem Vindo ao Imc Dark 👋</h1>
+<h1 align="center">
+  <img src="./hi.gif" alt="Mão acenando" width="30px" />
+  Bem Vindo ao Imc Dark
+</h1>
 <p align="center">➗🔢 A aplicação foi desenvolvida para calcular o IMC de uma pessoa a partir de sua altura e peso e classificá-lo de acordo com a tabela de IMC da Organização Mundial da Saúde (OMS).</p>
 
 <div align="center">
@@ -20,11 +23,13 @@
   </a>
 </p>
 
-### ✨ [Opção 1](https://imcdark.netlify.app)
+### ✨ [Deployment 1](https://imcdark.netlify.app)
 
-### ✨ [Opção 2](https://wesleyallan.github.io/imc-dark/)
+### ✨ [Deployment 2](https://wesleyallan.github.io/imc-dark/)
 
-## Instalar
+<br />
+
+## 📨 Instalar
 
 Projeto simples com HTML e CSS puro, ou seja, assim não havendo necessidade de instalações extras.
 
@@ -32,7 +37,7 @@ Projeto simples com HTML e CSS puro, ou seja, assim não havendo necessidade de 
 git clone https://github.com/wesleyallan/imc-dark
 ```
 
-## Executar
+## ⚙️ Executar
 
 Para a execução do projeto basta haver um browser instalado, e abrir o arquivo `index.html`, seja por linha de comando ou pelo atalho `Ctrl + O` com o browser aberto.
 
@@ -41,7 +46,7 @@ cd imc-dark
 [browser] index.html
 ```
 
-## Usar
+## 😎 Usar
 
 Para usar a aplicação, basta fornecer sua altura e peso na interface da aplicação. Em seguida, a aplicação exibirá o seu IMC e a classificação de acordo com a tabela da OMS.
 
@@ -58,10 +63,10 @@ A classificação do IMC é a seguinte:
 
 👤 **Wesley Silva**
 
-- Website: https://wesleyallan.github.io/mypage
+- Website: [wesleyallan.dev](https://wesleyallan.dev)
 - Twitter: [@Wesley_AllanS](https://twitter.com/Wesley_AllanS)
 - Github: [@wesleyallan](https://github.com/wesleyallan)
-- LinkedIn: [@wwesleyallan](https://linkedin.com/in/wesleyallan)
+- LinkedIn: [@wesleyallan](https://linkedin.com/in/wesleyallan)
 
 ## Mostre seu apoio
 
